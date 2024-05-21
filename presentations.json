@@ -1,0 +1,298 @@
+[
+  {
+    "title": "Polish - English",
+    "tags": [],
+    "comments": [
+      "It's a secret but I'll tell you. The purpose of these events is networking. Talks are there mostly to lure people in 😉\n\nI'll let the current organizers answer your actual question 😅",
+      "I asked the speakers about presenting in English. Speakers choose the presentation language themselves, but Polish is not the only language. I encourage you to submit a presentation :-) We will be happy to develop our community.",
+      "> It's a secret but I'll tell you. The purpose of these events is networking. Talks are there mostly to lure people in 😉\r\n> \r\n> I'll let the current organizers answer your actual question 😅\r\n\r\nHahahhaha nice knowing that! That sounds awesome, lets see if I can blend in!\r\n\r\n> I asked the speakers about presenting in English. Speakers choose the presentation language themselves, but Polish is not the only language. I encourage you to submit a presentation :-) We will be happy to develop our community.\r\n\r\nThank you so much for taking this initiative! Also I appreciate your encouragement, but I am not well prepared for a presentation :)",
+      "@ozhanefemeral [Radosław Karbowiak](https://github.com/rkarbowiak) agreed to conduct the presentation in English :-) \r\nWell you will hear about \"Practical Guide: Implementing LLM Driven Features in Your System\"\r\nJoin us and enjoy it :-)"
+    ],
+
+    "body": "Hej! This is Ozzy, and I would like to attend Meet.js#56 next Tuesday. \r\n\r\nHowever I don't speak Polish very well, and I assume the whole meeting/talk is in Polish. If Polish, I may have difficulty following along and don't think my attendance will be worthwhile. Will the event be conducted in English?\r\n\r\nCheers!  "
+  },
+  {
+    "title": "Practical Guide: Implementing LLM Driven Features in Your System",
+    "tags": ["meet.js #54 - 21.05.2024"],
+    "comments": [
+      "Cześć\r\nCzy chcesz poprowadzić prezentację 21.05.2024??",
+      "Cześć, tak, pasuje mi",
+      "@SebastianPozoga ile czasu powinna trwać prezentacja?",
+      "około 30min :-)",
+      "btw. ale mamy tylko dwóch prelegentów, więc możemy trochę zwiększyć czas jeśli jest taka potrzeba. \r\n\r\nJuż jest strona wydarzenia:\r\n[https://www.meetup.com/meet-js-poznań/events/301015966/](https://www.meetup.com/meet-js-pozna%C5%84/events/301015966/)\r\n\r\nGdyby było coś do poprawy dawaj znać. Możesz też rozesłać w gronie znajomy. Zawsze warto mieć znajome twarze podczas prezentacji :-) ",
+      "Oki, dzięki za informację! Myślę, że 30 minut na spokojnie wystarczy, więc nie będzie potrzeby",
+      "Cześć\r\nW nawiązaniu do konwersacji https://github.com/meetjspl/poznan/issues/106 chciałbym zapytać czy nie chciałbyś poprowadzić prezentacji w języku angielskim?",
+      "wydaje mi się, że nie będzie to problemem"
+    ],
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "body": "Chciałbym się podzielić moimi doświadczeniami z budowy funkcjonalności wykorzystujących technologię RAG. Opowiem o:\r\n\r\n1. Kluczowych wyzwaniach w projektowaniu funkcjonalności i wykorzystywaniu modeli sztucznej inteligencji.\r\n2. Strategiach zarządzania i implementacji LLMów, ich potencjałach oraz ograniczeniach.\r\n3. Wykorzystywanych technikach, technologiach.\r\n4. Najlepszych praktykach przy implementacji rozwiązań wykorzystujących LLMy.",
+    "address": "Plus Jeden free Coworking Space, Za Bramką 1 · Poznań"
+  },
+  {
+    "title": "Czego frontendzi mogą się nauczyć z gier komputerowych?",
+    "tags": ["meet.js #54 - 21.05.2024"],
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "comments": [
+      "Ja bym chętnie posłuchał 😉 ",
+      "Cześć\r\nCzy chcesz poprowadzić prezentację 21.05.2024??",
+      "@SebastianPozoga tak, pasuje mi.",
+      "Już jest strona wydarzenia:\r\n[https://www.meetup.com/meet-js-poznań/events/301015966/](https://www.meetup.com/meet-js-pozna%C5%84/events/301015966/)\r\n\r\nBtw. Day of the Tentacle - szanuję ;-)",
+      "Cześć\r\nW nawiązaniu do konwersacji https://github.com/meetjspl/poznan/issues/106 chciałbym zapytać czy nie chciałbyś poprowadzić prezentacji w języku angielskim?"
+    ],
+    "body": "Hej, mam taką prezentację, już testowaną na ludziach. Dajcie znać czy mógłbym wystąpić z tym na meetjs.\r\n\r\n### Tytuł\r\nCzego frontendzi mogą się nauczyć z gier komputerowych?\r\n\r\n### Opis\r\nW tej prezentacji zagłębimy się w świat gier komputerowych, by odkryć, jak mogą one zainspirować frontendowców do udoskonalenia look'n'feel aplikacji webowych.\r\n\r\nWyjaśnię, dlaczego to zadanie nie należy wyłącznie do UX designerów, lecz również wymaga zaangażowania ze strony programistów.\r\n\r\nPrzedstawię, że za pojęciem look’n’feel nie kryje się żadna magia, lecz konkretne zasady do zaimplementowania w aplikacji. Na zakończenie zilustruję to, prezentując przykładowy, prosty kod.\r\n",
+    "address": "Plus Jeden free Coworking Space, Za Bramką 1 · Poznań"
+  },
+  {
+    "title": "Programowanie na typach w TypeScript'cie",
+    "tags": ["meet.js #54 - 06.01.2024"],
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "comments": [
+      "Cześć\r\nCzy 6.02 pasuje Ci na prezentację?",
+      "@SebastianPozoga Tak 👍 "
+    ],
+    "body": "## Tytuł\r\nProgramowanie na typach w TypeScript'cie\r\n\r\n## Opis\r\nPodczas prezentacji przyjrzymy się systemowi typów w TypeScript'cie podchodząc do niego jak do niezależnego języka programowania. Pokażę jak za pomocą typów możemy wyrazić mechanizmy znane z innych języków, np. pętle, funkcje, wyrażenia warunkowe, itd.\r\n\r\nJesteś ciekawy na jak bardzo szalone rzeczy pozwala system typów w TypeScript'cie i jak możesz  wykorzystać pełnie jego potencjału do codziennej pracy?\r\n\r\nPo mojej prezentacji możliwości sytemu typów staną się dla ciebie jasne oraz dowiesz się jak możesz dalej poszerzać swoją wiedzę w kierunku programowania na typach.\r\n\r\n---\r\n\r\nCo myślicie?",
+    "address": "Egnyte Poland sp. z o.o, Baraniaka 6 · Poznań"
+  },
+  {
+    "title": "Jak bezpiecznie używać tokena w przeglądarce? Najlepiej w ogóle!",
+    "tags": ["meet.js #54 - 06.01.2024"],
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "comments": [
+      "Cześć\r\nCzy 6.02 pasuje Ci na prezentację?",
+      "Tak, Termin pasuje."
+    ],
+    "address": "Egnyte Poland sp. z o.o, Baraniaka 6 · Poznań",
+    "body": "Na prezentacji opowiem o niebezpieczeństwach jakie czyhają na access tokeny trzymane w przeglądarce i jakie są obecnie najlepsze rekomendacje dla twórców SPA. Opowiem o architekturze rozwiązania, które nazywamy Token Handler. Pokażę open-source'owe implementacje komponentów Token Handlera dzięki ktorym w łatwy sposób można poprawić bezpieczeństwo SPA poprzez pozbycie się tokenów z przeglądarki.\r\n"
+  },
+  {
+    "title": "Jak wybudowałem wielofunkcyjną sieć społecznościową nie wiedząc nic o tym za pomocą narzędzi AI.",
+    "tags": ["meet.js #54 - 06.01.2024"],
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "comments": [
+      "Cześć @UladzimirFounder \r\n\r\nPotwierdź proszę czy 6.02 pasuje Ci na prezentację.",
+      "Tak, potwierdzam"
+    ],
+    "address": "Egnyte Poland sp. z o.o, Baraniaka 6 · Poznań",
+    "body": "Cześć. Jestem założycielem sieci społecznościowej flobex.network (na razie tak zwanej testowej infrastruktury), którą zrobiłem faktycznie wiedząc bardzo podstawowe rzeczy ze JS oraz frameworku Laravel. Używałem przy tym rozpracowaniu narzędzi GPT 4.0 oraz Copilota, które w dużym stopniu pomogli w powstaniu pierwszego kodu, a zatem w częściowym refaktoryngu. Przede wszystkim chce podkreślić, że nie jestem programistom, raczej amatorem z doświadczeniem 1 rok i 4 miesiąca.\r\n\r\nRozpatrzymy następne etapy po kolej:\r\n● Skąd to się wzięło i co jest podstawą frontendu i backendu\r\n● Czy jest tak łatwo stać developerem od zera używając tylko AI. Własne doświadczenie \r\n● Czym sugerowałem, budując logiki moduły oraz components całej strony\r\n● Resztę czasu poświęcimy dłubaniu w Project Service (jeden z głównych wątków appki). Biegłe pokażę wszyscy etapy powstania profesjonalnego kina, oraz jak strona może pomoc w tym"
+  },
+  {
+    "title": "It's evolving, just backwards? Zanurkujmy w React Server Components",
+    "tags": ["meet.js #53 - 14.11.2023"],
+    "comments": [
+      "Cześć \r\n\r\nCzy chciałbyś poprowadzić prezentację 14.11.2023??\r\n(na ten termin nie będziemy wstanie załatwić dojazdu - widzę, że masz Wrocław ustawiony jako miasto domowe)",
+      "Hej, nie ma problemu, aktualnie mieszkam w Poznaniu :D Tylko z ciekawości, jaki jest możliwy kolejny termin? Czy jeszcze nie jest ustalony? Ponieważ nie jestem aktualnie na 100% pewien czy ten termin mi pasuję.",
+      "Oki nevermind. Już potwierdziłem, termin mi pasuję :) ",
+      "Ok :-) to widzimy się na miejscu :-)"
+    ],
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "address": "Plus Jeden free Coworking Space, Za Bramką 1 · Poznań",
+    "body": "W erze ciągłych innowacji w świecie technologii webowej, czasami warto zastanowić się, czy \"nowe\" zawsze oznacza \"lepsze\". Czy możliwe jest, żebyśmy ewoluowali... ale wstecz? W kontekście Reacta i Next.jsa, React Server Components (RSC) wprowadza podejście, które wielu może kojarzyć z wcześniejszymi metodami renderowania po stronie serwera. Jednak czy to naprawdę krok wstecz?\r\n\r\nDo omówienia na prezentacji:\r\n\r\n- Wprowadzenie do React Server Components (RSC)\r\n- Praktyczne zastosowanie RSC i zrozumienie tego podejścia\r\n- Zalety i wady RSC\r\n- Porównanie z RSC z tradycyjnym SSR i CSR, oraz słowa dwa o SPA\r\n"
+  },
+  {
+    "title": "Uważaj, bo wdepniesz w `any` - jak nie korzystać z TypeScripta",
+    "tags": [],
+    "comments": [],
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "address": "Plus Jeden free Coworking Space, Za Bramką 1 · Poznań",
+    "body": "Przegląd częstych błędów lub niedopatrzeń, jakie pojawiają się w projektach typescriptowych i które powodują, że Typescript sprawia problemy zamiast je rozwiązywać"
+  },
+  {
+    "title": "Modularity: How your application structure can help you with DDD?",
+    "tags": [],
+    "comments": [
+      "rozumiem, że termin 14.11.2023 jest odpowiedni?",
+      "tak, termin pasuje ;)",
+      "prezentację przełożymy na następne spotkanie ",
+      "Czy pasowałby Ci termin 12.03?",
+      "Hej,   tak pasuje :)  Jak wygląda sprawa zwrotów? Jestem z Wrocławia i będę musiał dojechać do Was.   --  pozdrawiam  Marcin Ludwig \r\n     \r\n      \r\n       \r\n        Dnia 18 lutego 2024 19:19 Sebastian Pozoga ***@***.***&gt; napisał(a):\r\n       \r\n    \r\n       \r\n         \r\n Czy pasowałby Ci termin 12.03? \r\n\r\n —  Reply to this email directly,  github.com view it on GitHub , or  github.com unsubscribe .  You are receiving this because you authored the thread. Message ID:  &lt;meetjspl/poznan/issues/98/1951405315 @ github . com&gt;\r\n",
+      "\"Jak wygląda sprawa zwrotów?\" - mamy już załatwione. Napisz pv (wyślij swój adres email) i przekażę Cię do odpowiedniej osoby :-) \r\n"
+    ],
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "address": "Plus Jeden free Coworking Space, Za Bramką 1 · Poznań",
+    "body": "Tytuł prezentacji:\r\n\r\npl:\r\nModularność: W jaki sposób struktura katalogów w aplikacji może Ci pomóc z Domain Driven Design?\r\n\r\neng:\r\nModularity: How your application structure can help you with DDD?\r\n\r\n\r\n----------------------------------------------------------------------------------------\r\nOpis prezentacji:\r\n\r\npl:\r\nDomain Driven Design jest trudne. Myślę, że wielu z Was to przyzna. Istnieją rozwiązania takie jak Event Storming, jednak aby z nich skorzystać, należy spełnić wiele warunków. Nie zawsze da się też użyć rozwiązań typu Event Storming, szczególnie w przypadku nowych projektów. Pracuję z DDD od kilku lat i przez ten czas wypracowałem sposoby umożliwiające pracę z Domain Driven Design od pierwszego dnia w projekcie. W prezentacji pokażę jak struktura katalogów może pomóc w tworzeniu modularnego kodu i odkrywaniu domen. \r\n\r\neng:\r\nDomain Driven Design is hard, I think that many of you will admit that. There are solutions like Event Storming, but there are many conditions required to use it. Very often it is even impossible to use, eg in new project. I have been there and I found different solution. I have been working with DDD since few years and I found out how to work with DDD starting from day one in the project. In the presentation, I will show you how your directory structure can help you with discovering domains.\r\n\r\n\r\n----------------------------------------------------------------------------------------\r\nbio:\r\npl:\r\nPrincipal Developer specjalizujący się w architekturze frontendowej. Szkoli i uczy innych o architekturze frontendowej. Autor kanału YouTube @frontendarchitecture, na którym porusza tematy związane z JavaScriptem, architekturą, umiejętnościami miękkimi i zarządzaniem projektem. Autor e-booka „Struktura plików dla aplikacji frontendowej”, w którym pokazuje jak wybrać strukturę folderów w projekcie.\r\n\r\neng:\r\nPrincipal Developer specialized in front-end architecture. Trains leaders and teaches others about front-end architecture. Author of @frontendarchitecture YouTube channel where he speaks about topics related to javascript, architecture and soft skills. Author of e-book \"Struktura plików dla aplikacji frontendowej\" where he described how to choose folder structure for your project."
+  },
+  {
+    "title": "Przegląd narzędzi AI dla webdeveloperów",
+    "tags": ["meet.js #52 - 10.10.2023", "meet.js #53 - 14.11.2023"],
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "comments": [
+      "Cześć\r\nCzy pasuje Ci termin 14.11.2023 na poprowadzenie prezentacji?",
+      "Tak, wpisuj mnie :))",
+      "Tak, wpisuj mnie :))\r\n\r\nMarcin Owczarzak.\r\n\r\n\r\nOn Fri, Oct 6, 2023 at 10:08 AM Sebastian Pozoga ***@***.***>\r\nwrote:\r\n\r\n> Cześć\r\n> Czy pasuje Ci termin 14.11.2023 na poprowadzenie prezentacji?\r\n>\r\n> —\r\n> Reply to this email directly, view it on GitHub\r\n> <https://github.com/meetjspl/poznan/issues/97#issuecomment-1750164114>,\r\n> or unsubscribe\r\n> <https://github.com/notifications/unsubscribe-auth/AD3G5A3JBGONA2E5UITRDB3X564BPAVCNFSM6AAAAAA5RO37B2VHI2DSMVQWIX3LMV43OSLTON2WKQ3PNVWWK3TUHMYTONJQGE3DIMJRGQ>\r\n> .\r\n> You are receiving this because you authored the thread.Message ID:\r\n> ***@***.***>\r\n>\r\n",
+      "Zgodnie z ustaleniami pv dopisuję Cię do terminu 10.10.2023 na meet.js #52 za chorego prelegenta. ",
+      "Czy na dokończenie tematu pasuje Ci termin 14.11.2023??",
+      "Tak 🙂 ",
+      "Slajdy z prezentacji:\r\nhttps://gamma.app/public/Overview-of-AI-Tools-for-Web-Developers-dpai0desb8vlebc"
+    ],
+    "address": "Plus Jeden free Coworking Space, Za Bramką 1 · Poznań",
+    "body": "Omówię szeroki wachlarz narzędzi AI do różnych zastosowań w programowaniu, tj. generowanie kodu, debugowanie, brainstorming, itp. Nie ominę również kwestii bezpieczeństwa i spodziewanych efektów długofalowych korzystania z AI. Celem mojego wystąpienia będzie nie tylko przedstawienie dostępnych narzędzi, ale także zrozumienie, jak mogą one wpłynąć na naszą branżę, przyspieszenie pracy, poprawę jakości kodu, rozwijanie nowych kompetencji w zespołach developerskich, itd.\r\n\r\nTemat jest bardzo szeroki, trwa wyścig zbrojeń w temacie, co chwila wychodzą aktualizacje i pojawiają się nowe narzędzia, ludzie zwykle mają mnóstwo pytań i własnych spostrzeżeń, dlatego - jeśli nie zmieszczę się w wyznaczonym czasie na prelekcję, mogę zrobić z tego tematu cykl prezentacji 🙂\r\n\r\nJak ktoś chce wygenerować plakat to polecam, np. https://ideogram.ai/ 😉\r\n\r\n![ideogram](https://github.com/meetjspl/poznan/assets/16150147/d5e1290c-fd83-476d-837e-7cd28c42bef7)\r\n"
+  },
+  {
+    "title": "Proxies i programowanie na typach przy tworzeniu ergonomicznych i tree shakable bibliotek",
+    "tags": ["meet.js #53 - 14.11.2023"],
+    "comments": [
+      "Brzmi bardzo ciekawie. Ale na najbliższe spotkanie mamy komplet, więc prezentacja pójdzie na następne. Co ciekawe zebrały nam się już 3 prezentacje, więc nie będzie trzeba długo czekać :-) ",
+      "Fajnie, to czekam na info :)",
+      "Cześć\r\nCzy pasuje Ci termin 14.11.2023 na poprowadzenie prezentacji?",
+      "Tak",
+      "https://github.com/fabian-hiller/valibot",
+      "@pawk3k Yep, talk będzie dotyczył tego jak połączyć \"najlepsze z obu światów\", czyli stworzyć libkę, która jest tree shakable jak valibot, ale jednocześnie ma nice, chainable API jak zod.\n\nI oczywiście biblioteka do walidacji schemy, to tylko przykład dla ustalenia uwagi. Myślę, że technika ma więcej use caseów. ",
+      "Chciałbym to zobaczyć. Będzie nagranie? :sweat_smile: \r\n",
+      "postaram się tematu przypilnować lepiej niż ostatnio :-) "
+    ],
+    "address": "Plus Jeden free Coworking Space, Za Bramką 1 · Poznań",
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "body": "Cześć, \r\ntytuł jest trochę dziwny, ale ostatnio myślałem nad tym czy da się robić takie biblioteki jak np. Zod, ale tak, by user mógł sam sobie wybrać podzbiór API, który go interesuje i dzięki temu zmniejszyć bundle size swojeje aplikacji.\r\n\r\nTak to wygląda w Zodzie:\r\n\r\n```ts\r\nimport { z } from \"zod\"; // 12.8 kB\r\n\r\nconst LoginSchema = z.object({\r\n  email: z.string().email(),\r\n  password: z.string().min(8),\r\n});\r\n```\r\n\r\nNawet jeśli potrzebujemy tylko walidatorów do `string`, `email` i `min`, to i tak musimy zaimportować całe `z` ważące 12.8 kB.\r\n\r\nNo i okazuje się, że wymyśliłem jak to zrobić i o tym chciałbym opowiedzieć. Zrobiłem taką proof-of-concept libkę, która używa tej techniki [correttore](https://github.com/mieszkosabo/correttore):\r\n\r\n```ts\r\nimport { email, minLength, object, initCorrettore, string } from \"correttore\"; // 0.54 kB\r\n\r\nexport const c = initCorrettore({\r\n  string,\r\n  email,\r\n  object,\r\n  minLength,\r\n});\r\n\r\nconst LoginSchema = c.object({\r\n  email: c.string().email(),\r\n  password: c.string().minLength(8),\r\n});\r\n```\r\n\r\nDajcie znać, czy to brzmi ciekawie. Wiem, że jest spotkanie 10.10, jeśli jest jeszcze miejsce, to chętnie wpadnę, a jak nie, to może następnym razem.\r\n\r\n\r\n"
+  },
+  {
+    "title": "Nx custom  generators - a mean to achieve codebase consistency",
+    "tags": ["waiting for the lecturer's availability"],
+    "comments": [
+      "Sound great. We plan next meeting on 10.10.2023 at 18:00. Whether it suits you?",
+      "Looks good to me 👌",
+      "The topic will be covered later in the future - on 10.10.2023 the topic about the inject function in Angular will be covered.",
+      "Cześć\r\nCzy pasuje Ci termin 14.11.2023 na poprowadzenie prezentacji?"
+    ],
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "address": "Plus Jeden free Coworking Space, Za Bramką 1 · Poznań",
+    "body": "Undoubtedly, Nx is a great tool to use on a daily basis when working on enterprise applications. One of its striking features it the ability to perform code scaffolding in a consistent way with the aid of common plugins which include a great number of generators. In addition to that, it’s also possible to create a custom generator that meets your application’s specific needs.  In this presentation, I will cover how to write a custom generator from scratch with the aid of tools provided by the Nx. I will focus on generating files from templates and updating existing files in an elegant and maintainable way. I will make use of many relevant helper functions from the Nx devkit package. In addition, I will cover how to compose generators including extending the ones provided by well known plugins such as Angular library / application generators. The insights and a bunch of tips and tricks from a real world application will conclude the presentation."
+  },
+  {
+    "title": "Unleash the power of the inject function in Angular applications",
+    "tags": ["waiting for the lecturer's availability"],
+    "comments": [
+      "Topic will be covered on 10.10.2023 at 18:00 instead of Nx topic.",
+      "ok :-)",
+      "Dodałem stronę wydarzenia. Na początku tygodnia ruszamy z promocją. Jeśli masz jakieś uwagi / chcesz coś dodać pisz :-)\r\nhttps://www.meetup.com/meet-js-poznań/events/296293629/"
+    ],
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "address": "Plus Jeden free Coworking Space, Za Bramką 1 · Poznań",
+    "body": "Undoubtedly, one of the most striking features of the Angular framework is the Dependency Injection mechanism. Nowadays, there is a powerful alternative to the traditional constructor based DI, namely dependencies can be obtained from the injector with the aid of the inject function. In this presentation, I will cover the new technique as compared to the traditional solution relying on a class constructor. In addition, I will focus on so-called DI functions which are pieces of reusable code with access to the DI system."
+  },
+  {
+    "title": "Frontendy + Ethereum",
+    "tags": ["to close"],
+    "comments": [
+      "Ach, obrazki nie działają. Chyba nie da się hostować ich na GitHubie. Będzie fix, wybaczcie.",
+      "Zapowiada się bardzo interesująco. Mega :) ",
+      "> Ach, obrazki nie działają. Chyba nie da się hostować ich na GitHubie. Będzie fix, wybaczcie.\r\n\r\nJuż!",
+      "@lebrande Cześć\r\nDalej jesteś zainteresowany poprowadzeniem prezentacji? Czy odpowiadałby Ci termin 27 kwietnia (czwartek)?",
+      "@SebastianPozoga Jasne, chętnie wpadnę opowiedzieć o front-endach pod EVM blockchains. Plan, który rozpisałem wyżej już trochę się zdezaktualizował. Wrzucę poprawkę wkrótce. Wydaje mi się, że najlepsze będzie jakieś case studies."
+    ],
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "address": "Plus Jeden free Coworking Space, Za Bramką 1 · Poznań",
+    "body": "Prezka przetestowana w boju na [meet.js Białystok #43](https://www.facebook.com/events/692835095117510), aczkolwiek zmienię ją nico, bo tam gadałem prawie 1,5 godziny.\r\n\r\nOpowiem w mega skrócie, o tym czego się nauczyłem przez ostatnie 10 miesięcy pracy w IPOR Labs, czyli robieniu frontu dla aplikacji, która pod spodem ma smart kontrakty.\r\n\r\n- Trochę o blockchainie i o samym Ethereum (bardzo mało osób wie o co w tym chodzi)\r\n- Jak się łączyć ze smart kontraktami\r\n- Jak ja testuję taką aplikację\r\n- Wszystko będzie się kręcić wokół portfela MetaMask\r\n- Case studies, wyzwania i ciekawostki\r\n- Tokeny ERC-20\r\n- I jak wystarczy czasu to przegląd jakiś projektów - ale raczej nie wystarczy czasu 🤣\r\n\r\n[Tutaj slajdy z Białegostoku](https://lebrande.github.io/meetjs-bialystok-43/), ale podkreślam, będą zmiany. Trzeba trochę zagęścić i coś wyrzucić."
+  },
+  {
+    "title": "Animacje 3D na Mapie w React Native - Three.js + MapView",
+    "tags": [],
+    "comments": [
+      "Super temat!\n\nMierzyłeś ile czasu potrzebujesz na prelekcję? Zwyczajowo mamy 25 minut plus pytania. \nTylko slajdy, czy jakieś demo z kodem?",
+      "5 minut wprowadzenie\r\n10 minut przykład z map mapView\r\n10 minut przykład z osadzaniem Three.js i wyświetleniem modelu 3D\r\nplus pytania\r\n\r\naby demo było sprawniejsze, przygotowane wcześniej snippety i uruchomienie ich na telefonie (live demo)\r\n\r\nGłównym moim celem jest inspiracja i zachęcenie do dalszej eksploracji tych bibliotek.\r\n\r\n\r\n\r\n\r\n",
+      "Cześć\r\nChcesz przygotować prezentację 14.11.2023??"
+    ],
+    "address": "unknown",
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "body": "**WHY - MOTIVATION**\r\nCzy słyszałeś o fenomenie Pokemon Go?\r\n\r\nNigdy do tej pory ludzie nie grali w gry wideo w ten sposób, \r\nwspólnie wychodząc na spacery i poznając nowych ludzi.\r\n\r\nMnie zaintrygował, jeden, inny aspekt. \r\nJak została zaprojektowana, wykorzystując.\r\n- renderowanie postaci w 3D, \r\n- jednocześnie umieszczające je na mapie świata.\r\n\r\n**Postawiłem tezę:**\r\nCzy w 2022 roku da się napisać aplikację pokroju PokemonGO w React Native, \r\nktóra jest na tyle wydajna aby płynnie animować postacie w 3D?\r\n\r\n**HOW - Main challenges**\r\nGłówne problemy do rozwiązania\r\n- Jak wykorzystać mapę świata aby była planszą gry\r\n- Jakie mamy możliwości animacji w react native\r\n- Jak umieścić na mapie modele 3D i je animować\r\n\r\n**WHAT**\r\nNa prelekcji podzielę się doświadczeniem \r\n\r\n**MapView**:\r\n- jak renderować mapy googla w react native,\r\n- jak je modyfikować kolorystykę map\r\n- jak  umieszczać znaczniki \r\n- jak używać perspektywy na mapie\r\n\r\n**Three.js**\r\n- jak dodać three.js do projektu react-native\r\n- jak tworzyć scenę\r\n- jak dodać światło\r\n- jak dodać model\r\n- jak animować model\r\n"
+  },
+  {
+    "title": "Deconstructing State Management (in React)",
+    "tags": [],
+    "comments": [
+      "Super pomysł na prezke! ❤️ ",
+      "Będę słuchać z przyjemnością!",
+      "@adrianmroz Gdyby meetjs odbył się 31 maja - byłbyś chętny przedstawić wtedy temat?",
+      "> @adrianmroz Gdyby meetjs odbył się 31 maja - byłbyś chętny przedstawić wtedy temat?\n\nRaczej tak. Do wtorku potwierdzę ostatecznie. Meetup byłby na żywo czy wirtualnie?",
+      "> > @adrianmroz Gdyby meetjs odbył się 31 maja - byłbyś chętny przedstawić wtedy temat?\r\n> \r\n> Raczej tak. Do wtorku potwierdzę ostatecznie. Meetup byłby na żywo czy wirtualnie?\r\n\r\nNa żywo :) Dzięki",
+      "No to potwierdzam. Do zobaczenia!",
+      "@adrianmroz hej, mamy jeszcze drugi temat który może się szybciej zdezaktualizować i wolelibyśmy przesunąć twoją prezkę na następny raz (może czerwiec). Dzięki wielkie za gotowość. Do następnego razu 😃",
+      "Cześć\r\n\r\nCzy temat prezentacji jest dalej aktualny? ",
+      "Aktualny. Myślę, że muszę tylko minimalnie poprawić przykłady na slajdach i będzie super. "
+    ],
+    "address": "unknown",
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "body": "Zakończyły się dni panowania Reduxa.\nDzisiaj możemy odliczać dni od wydania ostatniej biblioteki do zarządzania stanem.\nByć może hooki i context wsytarczą i wcale nie musimy dodawać kolejnej paczki?\n\n\nZobaczmy jakie zadania musi spełniać biblioteka do zarządzania stanem.\nPrzyjrzymy się Reduxowi, MobX, Recoil i innym. A nawet wbudowanemu contextowi i useState.\n\n\nPo tej prezentacji będziecie wiedzieli jak wybrać odpowiednie rozwiązanie do zarządzania stanem. Albo napisać własną bibliotekę - przepraszam!"
+  },
+  {
+    "title": "Svelte and reactive web apps",
+    "tags": ["talk idea"],
+    "comments": [
+      "Super temat, z chęcią posłucham! Jaki masz plan na prezentację? Przedstawienie API dla dewelopera, live coding? Chcesz wgłębiać się w sposób działania i tłumaczyć wygenerowany kod? Masz zamiar bezpośrednio zestawiać Svelte z Reactem i Vue, czy tylko wspomnieć o fundamentalnych różnicach?",
+      "Większość o czym piszesz będzie, jednak nie będę się za bardzo wgłębiał w tłumaczenie wygenerowanego kodu, bo za mało czasu. To będzie prezentacja i dla osób które nigdy nie słyszały o svelte oraz dla osób, które znają już framework, ale chciałyby zobaczyć ciekawe smaczki.\r\n\r\nDo zobaczenia :)",
+      "@kjeske Chcesz wystąpić na meet.js 23 września? ;) ",
+      "Dzięki, ale spasuję tym razem - kiepsko z czasem ostatnio. Ale na pewno zgłoszę się jeszcze :) Btw, super, że wracacie z wystąpieniami na żywo!",
+      "Spoko. Ale przyjdź koniecznie - będą foodtrucki 😉",
+      "Cześć\r\nChcesz poprowadzić prezentację 14.11.2023?? "
+    ],
+    "address": "unknown",
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "body": "Wprowadzenie do Svelte, czyli reaktywnego frameworka o dużej wydajności.\r\n\r\nSvelte to tzw. component framework, podobnie jak React oraz Vue, jednak wprowadza wiele znaczących różnić. Największą z nich jest brak virtual dom w celu aktualizowania zawartości. Operacje są bezpośrednio odzwierciedlone w strukturze strony bez nadmiernej interpretacji przez framework.\r\n\r\nSvelte nie nakłada kolejnej warstwy na Twój kod, a raczej kompiluje go do postaci, która bezpośrednio manipuluje zawartością. Jest to niezwykle obiecujący framework, który skupia wokół siebie coraz większą społeczność.\r\n\r\nPrezentacja w języku angielskim."
+  },
+  {
+    "title": "Optymalizacja rozmiaru paczki produkcyjnej z Webpack",
+    "tags": ["talk idea"],
+    "comments": [
+      "Super temat! Kilka pomysłów:\r\n * module replacement i aliasy\r\n * budowanie osobnej paczki z ES6\r\n * tree shaking (chyba że przykład z lodash to pokrywa)\r\n * babel transform runtime (jeżeli chcesz zahaczać o transpilację)",
+      "Cieszę się że komuś przypadł do gustu.\r\nKilka pytań odnośnie sugestii:\r\n* Module replacement, masz na myśli hot module replacement?\r\n* Aliasy - dasz jakiś przykład w jakiś sposób można tym wpływać na wielkość bundle'a?\r\n* Przez osobną paczkę masz na myśli osobny entrypoint? Czyli code-splitting?\r\n* Tree shaking chcę pokazać jak działa i co daje.  Raczej nie chciałem wgłębiać się w side-effecty - może zabraknąć czasu\r\n* babel transform runtime - dobry pomysł",
+      "* Module replacement i/lub aliasy - to, że możesz zastąpić zależności mniejszymi modułami z kompatybilnym API, nie tylko w swoim kodzie, ale także używanych zależnościach. Jak na przykład przy aliasowaniu Reacta przez Preact albo wyrównywania niekompatybilnych o patch wersji jakiejś głębokiej zależności\r\n * Osobna paczka pod ES6 - ten sam entrypoint, inne ustawienia Babela (bez transpilacji albo z częściowo wyłączoną), wynikowo mniejszy kod dla nowszych przeglądarek, większy dla starszych \r\n * Three shaking - to wystarczy 👍 ",
+      "Interesujące... ;)\r\nMuszę przyznać że jeszcze mnie tam nie było. Zgłębię tematy i poruszę podczas talka.\r\n\r\nDzięki za pomysły!",
+      "cześć @kvas-damian \r\nOdżywamy po pandemii. Temat aktualny?",
+      "@naugtur aktualny. Daj znać jak będziemy mieli wolnego slota na talka o performance",
+      "Właśnie ogłosiłem meet.js Poznań na 23 września. Wbijasz? :D @kvas-damian"
+    ],
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "address": "unknown",
+    "body": "1. Co to jest Webpack?\r\n2. Różne techniki optymalizacji rozmiaru bundle'a w Webpack na przykładzie apki w Vue.js\r\na. `Webpack Bundle Analyzer` do analizy zawartości paczki\r\nb. `TerserPlugin` - do minifikacji wyjściowego kodu\r\nc. `Code Splitting` - ręczny podział na mniejsze paczki\r\nd. `Dynamic Imports` - lazy loading modułów JS\r\ne. `Tree Shaking` - eliminowanie martwego kodu (jak sobie poradzić z `lodash`)\r\nf. Jak sobie poradzić z rozmiarem `Moment.js`\r\ng. `Cache` - czyli jak cache'ować assety\r\nh. `Brotli` - alternatywna forma kompresji do `gzip` i jak zintegrować to z `nginx` i `apache2`\r\ni. `@babel/plugin-transform-runtime`\r\n\r\nCzyli jak w krótkim czasie ograniczyć rozmiar ładowanych assetów o kilkadziesiąt procent."
+  },
+  {
+    "title": "6miesięcy React'a w startup'ie, raport.",
+    "tags": ["talk idea"],
+    "comments": [
+      "1. Opowiesz o podejściu do testowania? Czy React Wam tu pomógł, czy raczej utrudnił zadanie?\r\n2. Korzystaliście z TypeScript albo innego systemu typów?",
+      "@1 Tak będę mówił o testowaniu, konsekwencjach braku testów.\r\nO tym przed czym testy + Typescript nas nie zabezpieczą.\r\nTestować trzeba również trzeba umieć, więc na przykładzie pokaże jak wygląda test _wartości biznesowej_ a jak wygląda _test komponentu_. To trzeba poczuć i nauczyć się, co i jak warto testować, żeby testy nie wyszły nam bokiem i nie stały się problemem/kosztem.\r\n\r\n@2 Tak Pure JS -> Typescript jest jednych z rozwiązań,\r\nktóre zastosowaliśmy (jesteśmy w trakcie tranzycji) i będę o tym mówił\r\ni inwestycja ta zwraca się dość szybko. Główną wartością dodaną jest (onboarding)/obniżenie kosztu maintenance'u, ale niestety nie jest to panaceum na problemu zbudowanie z klocków całej aplikacji.\r\n\r\nGłówny wątkiem będzie czas + human factor\r\nReact jest tylko fragmentem w całej układance.\r\nBudowanie architektury / aplikacji wokół React'a, ma swój koszt którego nie widać na początku drogi. I o tym będę opowiadał\r\n\r\nNie wiem jak wygląda proces akceptacji / głosowania / ... / terminu. Więc jeżeli temat się spodoba , to termin fajnie jak udało by się nam uzgodnić z wyprzedzeniem 2-3 tygodniowym, żeby w spokoju przygotować siebie i materiał.",
+      "Procesu nie ma :) Dopóki termin prezentacji nie jest ustalony, każdy może zgłaszać uwagi, życzenia i sugestie, możesz je przyjąć lub nie. Najbliższy meetup planujemy na początek marca, ale trudno mi powiedzieć, czy Twoja prezentacja się zmieści. Kolejny odbędzie się prawopodobnie pod koniec kwietnia.\r\n\r\nTyle mogę na ten moment powiedzieć. Na pewno nie musisz się obawiać, że Twój temat zostanie odrzucony - jeszcze się to nie zdarzyło. Jeżeli prezentacja się nie odbyła, to jedynie z powodu naszego zaniedbania albo zaniechania tematu przez prelegenta.  Jeżeli jesteś w stanie wytrzymać te kilka miesięcy, miejsce na meet.js masz zaklepane!",
+      "@fkowal! Czy 12 marca byłbyś w stanie zrobić prezentację swojego tematu? :)",
+      "Będę gotowy",
+      "Hej, czy nagrywacie te prezentacje i udostępniacie je póżniej w sieci?\r\n\r\nPytam bo mógłbym postarać i załawić sprzęt + support do nagrania, jeżeli byłaby taka potrzeba.",
+      "@fkowal Na najbliższe spotkanie mamy już załatwionego kamerzystę. Nie jest to jednak reguła. Czy Twoja propozycja jest bardziej ogólna i jesteś chętny do długofalowej współpracy? :)",
+      "hehe :P pogadamy na miejscu, nie chciałbym dysponować czasem kolegi,\r\nale może w razie potrzeby udało by się coś załawić"
+    ],
+    "address": "unknown",
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "body": "Projekty greenfield dają ogromną swobodę, wszystkie chwyty/technologie dozwolone.\r\nNa frontendzie dumnie stoi **React** i JS.\r\nPo pół roku pracy podsumuję wybory technologiczne, które zostały podjęte.\r\nPodzielę się doświadczeniem i informacjami co wyszło, a co wyszło bokiem.\r\n\r\nChcecie mięsa? Bedzie mięcho? Będzie dużo mięcha.\r\n60k linii kodu, tysiące plików, 9 aplikacji i pytanie. _Tylko jaką to wszystko ma wartość_.\r\n\r\nChwalić? Siebie? Kogo?\r\nTak kolegów trzeba pochwalić, zrobili ogromny kawał dobrej roboty.\r\nAle to jeszcze nie powód, żeby suchej nitki na nich nie zostawić, za to co niewyszło.\r\nMoże poznamy odpowiedź na pytanie jak wygląda ciemna strona React'a.\r\n\r\n- bundle size\r\n- build time\r\n- error rate\r\n- human cost (onboarding)\r\n- maintenance cost\r\n- UX\r\n\r\nI na koniec po omówieniu problemów wieku dziecięcego, wnioski czy decyzje na przyszłość.\r\nCzyli strategia jak poradzić sobie z tym co już mamy.\r\nCo zrobimy żeby było już tylko lepiej.\r\n\r\nI może jeszcze pół słowa o mnie, żebyście zechcieli się pofatygować.\r\nPo 10 latach pracy w Allegro, niejedno widziałem, nie jedno robiłem, i nie jedno wiem.\r\nJS->jQuery->Backbone->Knockout->Angular1->Angular2->React\r\nMobX->Redux->Relay o całej reszcze nonsensu bo budowania tego wszystkie nie wspomnę.\r\n\r\nWięc naostrzcie widły, zabierzcie pomidory, 0.5L czy czymkowiek wita się\r\nnieznanego gościa na meetach JSowcyh, który przyszedł obrażać Twoją ulubioną technologię.\r\n\r\nZapraszam,\r\nMaciej Kowalski"
+  },
+  {
+    "title": "Visual Regression Testing with cypress.io",
+    "tags": ["talk idea"],
+    "comments": [
+      "Chętnie bym posłuchał. \r\n\r\nOsobiście chciałbym zrozumieć jak dużo problemów stwarza update'owanie obrazków referencyjnych albo czegokolwiek na czym opiera się Percy. Innymi słowy, jak uciążliwe jest dodawanie zmian lub \"akceptowanie tego że coś się zmienia\". Wydaje się, że wizualne testy regresyjne są bardziej przeznaczone dla dużych projektów, które wchodzą w fazę stabilizacji niż dla szybko rosnących i zmieniających się aplikacji.\r\n\r\nCiekawe też jak dużo czasu zajmują na CI.",
+      "@przemuh czy początek marca to dla Ciebie dobry termin na prezentację?",
+      "@erykpiast Jak najbardziej ;) Początek marca jest ok :)",
+      "Znamy termin najbliższego meet.js- 12 marca. Jest okej? :)",
+      "@erykpiast jest git :) "
+    ],
+    "address": "unknown",
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "body": "Jak to jest, że pomimo wysokiego pokrycia testami jednostkowymi, w każdy piątek przed deployem trzęsiesz się ze strachu? Czy jesteś pewien, że Twój test, sprawdzający czy komponent dostał jakąś klasę CSS, sprawdza to co powinien? A jeśli ktoś w innym miejscu napisał bardziej specyficzny selektor, który podpada pod Twój element? 💩\r\n\r\nZ pomocą przychodzą Visual Regression Testing (wizualne testy regresyjne). Tylko, że z nimi też nie ma tak hop siup. Dwie różne wersje Chrome'a mogą dać zupełnie inne obrazki pod względem rozłożenia pixeli. I chociaż dla naszego oka oba obrazki wyglądają identycznie to narzędzie do porównywania krzyczy na alarm!\r\n\r\nW prezentacji chciałbym pokazać jak wykorzystać narzędzie cypress.io do pisania wizualnych testów regresyjnych.\r\n\r\nDwa podejścia:\r\n- lokalne - poprzez wygenerowanie i porównanie obrazków (snapshot testing)\r\n- cloud - z wykorzystaniem percy.io\r\n\r\nBlaski i cienie obu rozwiązań + mały research odnośnie alternatyw.\r\n\r\nCo myślicie? Nada się?"
+  },
+  {
+    "title": "suggestions",
+    "tags": [],
+    "comments": [
+      "Github daje mi 422 jak chcę odpowiadać na poszczególne komentarze :(\nUstosunkuję się jak zacznie działać. Ogółem spoko! Zastanawiam się tylko,\nczy chcemy to potraktować jako żyjący wpis, który będzie apdejtowany razem\nz postępami prac koncepcyjnych, czy ma to być typowo template do zgłoszenia\nissue i dalsza praca będzie się odbywać w komentarzach.\n\npt., 14.10.2016 o 13:07 użytkownik Zbyszek Tenerowicz <\nnotifications@github.com> napisał:\n\n> ## @erykpiast https://github.com/erykpiast iterujemy!\n> \n> You can view, comment on, or merge this pull request online at:\n> \n>   https://github.com/meetjspl/poznan/pull/23\n> Commit Summary\n> - suggestions\n> \n> File Changes\n> - _M_ issue_template.md\n>   https://github.com/meetjspl/poznan/pull/23/files#diff-0 (16)\n> \n> Patch Links:\n> - https://github.com/meetjspl/poznan/pull/23.patch\n> - https://github.com/meetjspl/poznan/pull/23.diff\n> \n> —\n> You are receiving this because you were mentioned.\n> Reply to this email directly, view it on GitHub\n> https://github.com/meetjspl/poznan/pull/23, or mute the thread\n> https://github.com/notifications/unsubscribe-auth/ABXjJlRQyf_ghnoxUrytAI3icRAfugI4ks5qz2JkgaJpZM4KW5OF\n> .\n"
+    ],
+    "address": "unknown",
+    "body": "@erykpiast iterujemy!\n"
+  },
+  {
+    "title": "Jak zrobić dobrą prelekcję na meet.js i nie tylko",
+    "tags": ["workshop idea", "stale"],
+    "comments": [
+      "świetne! można by poruszyć też wątek po co ludzię prezentują, po co ludzie przychodzą na prezentacje i jak te interesy pogodzic\n",
+      "to ja się piszę.\n\nśr., 10.08.2016 o 12:09 użytkownik Krzysztof Kaczmarek <\nnotifications@github.com> napisał:\n\n> świetne!\n> \n> —\n> You are receiving this because you are subscribed to this thread.\n> Reply to this email directly, view it on GitHub\n> https://github.com/meetjspl/poznan/issues/17#issuecomment-238823813, or mute\n> the thread\n> https://github.com/notifications/unsubscribe-auth/ABXjJvaWst_TqlYPZcvGG8RS6V-88t0vks5qeaNlgaJpZM4Jg-Um\n> .\n"
+    ],
+    "address": "unknown",
+    "beverages": ["coffee", "tea", "water", "beer"],
+    "body": "Warsztaty\n\nPierwszeństwo wstępu mieliby przeszli i przyszli prelegenci meet.js\n\nNajlepiej przyjść z tematem i pracować na żywym przykładzie.\n- o mieszczeniu się w czasie\n- jak opowiadać\n- jak pokazywać kod\n- udawanie livecodingu\n- co pisać na slajdach\n\nA gdyby event był dłuższy - trening samego prezentowania.\n"
+  }
+]
