@@ -1,0 +1,409 @@
+{
+  "evalId": "eval-2024-08-12T22:10:32",
+  "results": {
+    "version": 2,
+    "timestamp": "2024-08-12T22:10:32.182Z",
+    "results": [
+      {
+        "provider": {
+          "id": "file:///Praca\\meetjs\\rags\\dist\\custom-api-provider.cjs"
+        },
+        "prompt": {
+          "raw": "Were there any presentation about monitoring?",
+          "label": "Were there any presentation about {{topic}}?"
+        },
+        "vars": {
+          "topic": "monitoring"
+        },
+        "response": {
+          "output": "Yes, there was a presentation about monitoring titled \"Monitoring i Logi\" held in July 2022."
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 2121,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        }
+      },
+      {
+        "provider": {
+          "id": "file:///Praca\\meetjs\\rags\\dist\\custom-api-provider.cjs"
+        },
+        "prompt": {
+          "raw": "Were there any presentation about microservices?",
+          "label": "Were there any presentation about {{topic}}?"
+        },
+        "vars": {
+          "topic": "microservices"
+        },
+        "response": {
+          "output": "Yes, there was a presentation about microservices titled \"Mikroserwisy część 2\" held in February 2022, and it has been recorded."
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 2297,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 247,
+            "prompt": 204,
+            "completion": 43,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "microservices"
+              }
+            },
+            {
+              "assertion": {
+                "type": "llm-rubric",
+                "value": "there were presentations about microservices"
+              },
+              "pass": true,
+              "score": 1,
+              "reason": "the content mentions a presentation about microservices titled 'Mikroserwisy część 2'",
+              "tokensUsed": {
+                "total": 247,
+                "prompt": 204,
+                "completion": 43,
+                "cached": 0
+              }
+            }
+          ],
+          "assertion": null
+        }
+      },
+      {
+        "provider": {
+          "id": "file:///Praca\\meetjs\\rags\\dist\\custom-api-provider.cjs"
+        },
+        "prompt": {
+          "raw": "Were there any presentation about new york city?",
+          "label": "Were there any presentation about {{topic}}?"
+        },
+        "vars": {
+          "topic": "new york city"
+        },
+        "response": {
+          "output": "Based on the provided context, there is no mention of any presentations specifically about New York City at Developerskie. The listed topics and events do not indicate any focus on that subject."
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 2817,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 250,
+            "prompt": 207,
+            "completion": 43,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "assertion": {
+                "type": "llm-rubric",
+                "value": "there were no presentations about new york city"
+              },
+              "pass": true,
+              "score": 1,
+              "reason": "The output explicitly states that there is no mention of any presentations specifically about New York City at Developerskie.",
+              "tokensUsed": {
+                "total": 250,
+                "prompt": 207,
+                "completion": 43,
+                "cached": 0
+              }
+            }
+          ],
+          "assertion": null
+        }
+      }
+    ],
+    "stats": {
+      "successes": 3,
+      "failures": 0,
+      "tokenUsage": {
+        "total": 497,
+        "prompt": 411,
+        "completion": 86,
+        "cached": 0
+      }
+    },
+    "table": {
+      "head": {
+        "prompts": [
+          {
+            "raw": "Were there any presentation about {{topic}}?",
+            "label": "Were there any presentation about {{topic}}?",
+            "id": "27f955da785ee13062f23f418ad13c11689469cf1cc59b903376f720dcc78adb",
+            "provider": "file:///Praca\\meetjs\\rags\\dist\\custom-api-provider.cjs",
+            "metrics": {
+              "score": 3,
+              "testPassCount": 3,
+              "testFailCount": 0,
+              "assertPassCount": 3,
+              "assertFailCount": 0,
+              "totalLatencyMs": 7235,
+              "tokenUsage": {
+                "total": 0,
+                "prompt": 0,
+                "completion": 0,
+                "cached": 0
+              },
+              "namedScores": {},
+              "cost": 0
+            }
+          }
+        ],
+        "vars": [
+          "topic"
+        ]
+      },
+      "body": [
+        {
+          "outputs": [
+            {
+              "pass": true,
+              "score": 1,
+              "namedScores": {},
+              "text": "Yes, there was a presentation about monitoring titled \"Monitoring i Logi\" held in July 2022.",
+              "prompt": "Were there any presentation about monitoring?",
+              "provider": "file:///Praca\\meetjs\\rags\\dist\\custom-api-provider.cjs",
+              "latencyMs": 2121,
+              "gradingResult": {
+                "pass": true,
+                "score": 1,
+                "reason": "No assertions",
+                "tokensUsed": {
+                  "total": 0,
+                  "prompt": 0,
+                  "completion": 0,
+                  "cached": 0
+                },
+                "assertion": null
+              },
+              "cost": 0
+            }
+          ],
+          "test": {
+            "vars": {
+              "topic": "monitoring"
+            },
+            "assert": [],
+            "options": {},
+            "metadata": {}
+          },
+          "vars": [
+            "monitoring"
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "pass": true,
+              "score": 1,
+              "namedScores": {},
+              "text": "Yes, there was a presentation about microservices titled \"Mikroserwisy część 2\" held in February 2022, and it has been recorded.",
+              "prompt": "Were there any presentation about microservices?",
+              "provider": "file:///Praca\\meetjs\\rags\\dist\\custom-api-provider.cjs",
+              "latencyMs": 2297,
+              "gradingResult": {
+                "pass": true,
+                "score": 1,
+                "reason": "All assertions passed",
+                "namedScores": {},
+                "tokensUsed": {
+                  "total": 247,
+                  "prompt": 204,
+                  "completion": 43,
+                  "cached": 0
+                },
+                "componentResults": [
+                  {
+                    "pass": true,
+                    "score": 1,
+                    "reason": "Assertion passed",
+                    "assertion": {
+                      "type": "icontains",
+                      "value": "microservices"
+                    }
+                  },
+                  {
+                    "assertion": {
+                      "type": "llm-rubric",
+                      "value": "there were presentations about microservices"
+                    },
+                    "pass": true,
+                    "score": 1,
+                    "reason": "the content mentions a presentation about microservices titled 'Mikroserwisy część 2'",
+                    "tokensUsed": {
+                      "total": 247,
+                      "prompt": 204,
+                      "completion": 43,
+                      "cached": 0
+                    }
+                  }
+                ],
+                "assertion": null
+              },
+              "cost": 0
+            }
+          ],
+          "test": {
+            "vars": {
+              "topic": "microservices"
+            },
+            "assert": [
+              {
+                "type": "icontains",
+                "value": "microservices"
+              },
+              {
+                "type": "llm-rubric",
+                "value": "there were presentations about microservices"
+              }
+            ],
+            "options": {},
+            "metadata": {}
+          },
+          "vars": [
+            "microservices"
+          ]
+        },
+        {
+          "outputs": [
+            {
+              "pass": true,
+              "score": 1,
+              "namedScores": {},
+              "text": "Based on the provided context, there is no mention of any presentations specifically about New York City at Developerskie. The listed topics and events do not indicate any focus on that subject.",
+              "prompt": "Were there any presentation about new york city?",
+              "provider": "file:///Praca\\meetjs\\rags\\dist\\custom-api-provider.cjs",
+              "latencyMs": 2817,
+              "gradingResult": {
+                "pass": true,
+                "score": 1,
+                "reason": "All assertions passed",
+                "namedScores": {},
+                "tokensUsed": {
+                  "total": 250,
+                  "prompt": 207,
+                  "completion": 43,
+                  "cached": 0
+                },
+                "componentResults": [
+                  {
+                    "assertion": {
+                      "type": "llm-rubric",
+                      "value": "there were no presentations about new york city"
+                    },
+                    "pass": true,
+                    "score": 1,
+                    "reason": "The output explicitly states that there is no mention of any presentations specifically about New York City at Developerskie.",
+                    "tokensUsed": {
+                      "total": 250,
+                      "prompt": 207,
+                      "completion": 43,
+                      "cached": 0
+                    }
+                  }
+                ],
+                "assertion": null
+              },
+              "cost": 0
+            }
+          ],
+          "test": {
+            "vars": {
+              "topic": "new york city"
+            },
+            "assert": [
+              {
+                "type": "llm-rubric",
+                "value": "there were no presentations about new york city"
+              }
+            ],
+            "options": {},
+            "metadata": {}
+          },
+          "vars": [
+            "new york city"
+          ]
+        }
+      ]
+    }
+  },
+  "config": {
+    "description": "My eval",
+    "prompts": [
+      "Were there any presentation about {{topic}}?"
+    ],
+    "providers": [
+      {
+        "id": "file:///Praca\\meetjs\\rags\\dist\\custom-api-provider.cjs"
+      }
+    ],
+    "tests": [
+      {
+        "vars": {
+          "topic": "monitoring"
+        }
+      },
+      {
+        "vars": {
+          "topic": "microservices"
+        },
+        "assert": [
+          {
+            "type": "icontains",
+            "value": "microservices"
+          },
+          {
+            "type": "llm-rubric",
+            "value": "there were presentations about microservices"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "topic": "new york city"
+        },
+        "assert": [
+          {
+            "type": "llm-rubric",
+            "value": "there were no presentations about new york city"
+          }
+        ]
+      }
+    ],
+    "sharing": true,
+    "outputPath": [
+      "filepath.json"
+    ]
+  },
+  "shareableUrl": null
+}

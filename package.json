@@ -6,33 +6,36 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc --watch",
-    "start": "tsx dist/index.js",
-    "run:langchain:models": "tsx dist/src/langchain-models.js",
-    "run:meetjs:retriever": "tsx dist/src/meetjs-retriever.js",
-    "run:pinecone:insert": "tsx dist/src/pinecone-insert.js",
-    "run:meetjs:assistant": "tsx dist/src/meetjs-assistant.js"
+    "start": "npx tsx index.js",
+    "build:custom-api-provider": "npx tsup src/custom-api-provider.ts --format cjs,esm --dts --clean",
+    "run:pinecone:insert": "npx tsx src/pinecone-insert",
+    "run:assistant": "npx tsx src/assistant",
+    "promptfoo:eval": "promptfoo eval --output filepath.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.12.12",
-    "nodemon": "^3.1.0",
-    "typescript": "^5.4.5"
+    "@types/node": "^22.2.0",
+    "nodemon": "^3.1.4",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@langchain/anthropic": "^0.1.19",
-    "@langchain/community": "^0.0.57",
-    "@langchain/core": "^0.2.0",
-    "@langchain/openai": "^0.0.31",
-    "@langchain/pinecone": "^0.0.6",
-    "@pinecone-database/pinecone": "^2.2.1",
-    "axios": "^1.6.8",
+    "@langchain/anthropic": "^0.2.14",
+    "@langchain/community": "^0.2.27",
+    "@langchain/core": "^0.2.23",
+    "@langchain/openai": "^0.2.6",
+    "@langchain/pinecone": "^0.0.8",
+    "@pinecone-database/pinecone": "^3.0.0",
+    "axios": "^1.7.3",
+    "d3-dsv": "^3.0.1",
     "dotenv": "^16.4.5",
-    "langchain": "^0.1.37",
-    "node-llama-cpp": "^2.8.10",
+    "langchain": "^0.2.15",
+    "langsmith": "^0.1.41",
+    "node-llama-cpp": "^2.8.15",
+    "promptfoo": "^0.76.1",
     "ts-node": "^10.9.2",
-    "tsx": "^4.10.4"
+    "tsx": "^4.17.0"
   }
 }

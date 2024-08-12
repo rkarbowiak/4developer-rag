@@ -1,27 +1,22 @@
+import "dotenv/config";
 import { Pinecone } from "@pinecone-database/pinecone";
-import { Document } from "@langchain/core/documents";
 import { OpenAIEmbeddings } from "@langchain/openai";
 import { PineconeStore } from "@langchain/pinecone";
-import presentations from "../presentations.json";
-import "dotenv/config";
+import { CSVLoader } from "@langchain/community/document_loaders/fs/csv";
+
+const loader = new CSVLoader("./developerskie.csv");
+const docs = await loader.load();
 
 const pinecone = new Pinecone();
 
-const pineconeIndex = pinecone.Index("meetjs");
+const pineconeIndex = pinecone.Index("developerskie");
 
-await pineconeIndex.deleteAll();
-console.log("Pinecone index cleared.");
+pineconeIndex.deleteAll();
 
-const docs = presentations.map(
-  (presentation) =>
-    new Document({
-      metadata: presentation,
-      pageContent: `${presentation.title}, ${presentation.body}, ${presentation.tags}`,
-    }),
-);
+console.log("Inserting documents in Pinecone...");
 
 await PineconeStore.fromDocuments(docs, new OpenAIEmbeddings(), {
   pineconeIndex,
-  maxConcurrency: 5,
 });
+
 console.log("Documents inserted in Pinecone.");
