@@ -9,6 +9,7 @@ import {
 import { Pinecone } from "@pinecone-database/pinecone";
 import { StringOutputParser } from "@langchain/core/output_parsers";
 import * as hub from "langchain/hub";
+
 const prompt = await hub.pull("test");
 
 const model = new ChatOpenAI({

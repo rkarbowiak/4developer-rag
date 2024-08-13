@@ -1,8 +1,8 @@
 {
-  "evalId": "eval-2024-08-12T22:10:32",
+  "evalId": "eval-2024-08-12T22:13:16",
   "results": {
     "version": 2,
-    "timestamp": "2024-08-12T22:10:32.182Z",
+    "timestamp": "2024-08-12T22:13:16.060Z",
     "results": [
       {
         "provider": {
@@ -16,12 +16,12 @@
           "topic": "monitoring"
         },
         "response": {
-          "output": "Yes, there was a presentation about monitoring titled \"Monitoring i Logi\" held in July 2022."
+          "output": "Yes, there was a presentation about monitoring and logging in July 2022. The task titled \"Monitoring i Logi\" covers topics related to Logtail, BetterUptime, Next.js, Vercel, and Nest.js."
         },
         "success": true,
         "score": 1,
         "namedScores": {},
-        "latencyMs": 2121,
+        "latencyMs": 2607,
         "gradingResult": {
           "pass": true,
           "score": 1,
@@ -40,6 +40,55 @@
           "id": "file:///Praca\\meetjs\\rags\\dist\\custom-api-provider.cjs"
         },
         "prompt": {
+          "raw": "Were there any presentation about new york city?",
+          "label": "Were there any presentation about {{topic}}?"
+        },
+        "vars": {
+          "topic": "new york city"
+        },
+        "response": {
+          "output": "Based on the provided content, there is no mention of any presentations specifically about New York City at Developerskie. The listed tasks and events focus on technical topics such as workshops on Supabase, Next.js, Fly.io, and Puppeteer, as well as event-driven architecture."
+        },
+        "success": true,
+        "score": 1,
+        "namedScores": {},
+        "latencyMs": 2023,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 269,
+            "prompt": 226,
+            "completion": 43,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "assertion": {
+                "type": "llm-rubric",
+                "value": "there were no presentations about new york city"
+              },
+              "pass": true,
+              "score": 1,
+              "reason": "The content explicitly states that there is no mention of any presentations specifically about New York City at Developerskie.",
+              "tokensUsed": {
+                "total": 269,
+                "prompt": 226,
+                "completion": 43,
+                "cached": 0
+              }
+            }
+          ],
+          "assertion": null
+        }
+      },
+      {
+        "provider": {
+          "id": "file:///Praca\\meetjs\\rags\\dist\\custom-api-provider.cjs"
+        },
+        "prompt": {
           "raw": "Were there any presentation about microservices?",
           "label": "Were there any presentation about {{topic}}?"
         },
@@ -47,20 +96,20 @@
           "topic": "microservices"
         },
         "response": {
-          "output": "Yes, there was a presentation about microservices titled \"Mikroserwisy część 2\" held in February 2022, and it has been recorded."
+          "output": "Yes, there was a presentation about microservices titled \"Mikroserwisy część 2\" held in February 2022."
         },
         "success": true,
         "score": 1,
         "namedScores": {},
-        "latencyMs": 2297,
+        "latencyMs": 2346,
         "gradingResult": {
           "pass": true,
           "score": 1,
           "reason": "All assertions passed",
           "namedScores": {},
           "tokensUsed": {
-            "total": 247,
-            "prompt": 204,
+            "total": 241,
+            "prompt": 198,
             "completion": 43,
             "cached": 0
           },
@@ -83,57 +132,8 @@
               "score": 1,
               "reason": "the content mentions a presentation about microservices titled 'Mikroserwisy część 2'",
               "tokensUsed": {
-                "total": 247,
-                "prompt": 204,
-                "completion": 43,
-                "cached": 0
-              }
-            }
-          ],
-          "assertion": null
-        }
-      },
-      {
-        "provider": {
-          "id": "file:///Praca\\meetjs\\rags\\dist\\custom-api-provider.cjs"
-        },
-        "prompt": {
-          "raw": "Were there any presentation about new york city?",
-          "label": "Were there any presentation about {{topic}}?"
-        },
-        "vars": {
-          "topic": "new york city"
-        },
-        "response": {
-          "output": "Based on the provided context, there is no mention of any presentations specifically about New York City at Developerskie. The listed topics and events do not indicate any focus on that subject."
-        },
-        "success": true,
-        "score": 1,
-        "namedScores": {},
-        "latencyMs": 2817,
-        "gradingResult": {
-          "pass": true,
-          "score": 1,
-          "reason": "All assertions passed",
-          "namedScores": {},
-          "tokensUsed": {
-            "total": 250,
-            "prompt": 207,
-            "completion": 43,
-            "cached": 0
-          },
-          "componentResults": [
-            {
-              "assertion": {
-                "type": "llm-rubric",
-                "value": "there were no presentations about new york city"
-              },
-              "pass": true,
-              "score": 1,
-              "reason": "The output explicitly states that there is no mention of any presentations specifically about New York City at Developerskie.",
-              "tokensUsed": {
-                "total": 250,
-                "prompt": 207,
+                "total": 241,
+                "prompt": 198,
                 "completion": 43,
                 "cached": 0
               }
@@ -147,8 +147,8 @@
       "successes": 3,
       "failures": 0,
       "tokenUsage": {
-        "total": 497,
-        "prompt": 411,
+        "total": 510,
+        "prompt": 424,
         "completion": 86,
         "cached": 0
       }
@@ -167,7 +167,7 @@
               "testFailCount": 0,
               "assertPassCount": 3,
               "assertFailCount": 0,
-              "totalLatencyMs": 7235,
+              "totalLatencyMs": 6976,
               "tokenUsage": {
                 "total": 0,
                 "prompt": 0,
@@ -190,10 +190,10 @@
               "pass": true,
               "score": 1,
               "namedScores": {},
-              "text": "Yes, there was a presentation about monitoring titled \"Monitoring i Logi\" held in July 2022.",
+              "text": "Yes, there was a presentation about monitoring and logging in July 2022. The task titled \"Monitoring i Logi\" covers topics related to Logtail, BetterUptime, Next.js, Vercel, and Nest.js.",
               "prompt": "Were there any presentation about monitoring?",
               "provider": "file:///Praca\\meetjs\\rags\\dist\\custom-api-provider.cjs",
-              "latencyMs": 2121,
+              "latencyMs": 2607,
               "gradingResult": {
                 "pass": true,
                 "score": 1,
@@ -227,18 +227,18 @@
               "pass": true,
               "score": 1,
               "namedScores": {},
-              "text": "Yes, there was a presentation about microservices titled \"Mikroserwisy część 2\" held in February 2022, and it has been recorded.",
+              "text": "Yes, there was a presentation about microservices titled \"Mikroserwisy część 2\" held in February 2022.",
               "prompt": "Were there any presentation about microservices?",
               "provider": "file:///Praca\\meetjs\\rags\\dist\\custom-api-provider.cjs",
-              "latencyMs": 2297,
+              "latencyMs": 2346,
               "gradingResult": {
                 "pass": true,
                 "score": 1,
                 "reason": "All assertions passed",
                 "namedScores": {},
                 "tokensUsed": {
-                  "total": 247,
-                  "prompt": 204,
+                  "total": 241,
+                  "prompt": 198,
                   "completion": 43,
                   "cached": 0
                 },
@@ -261,8 +261,8 @@
                     "score": 1,
                     "reason": "the content mentions a presentation about microservices titled 'Mikroserwisy część 2'",
                     "tokensUsed": {
-                      "total": 247,
-                      "prompt": 204,
+                      "total": 241,
+                      "prompt": 198,
                       "completion": 43,
                       "cached": 0
                     }
@@ -300,18 +300,18 @@
               "pass": true,
               "score": 1,
               "namedScores": {},
-              "text": "Based on the provided context, there is no mention of any presentations specifically about New York City at Developerskie. The listed topics and events do not indicate any focus on that subject.",
+              "text": "Based on the provided content, there is no mention of any presentations specifically about New York City at Developerskie. The listed tasks and events focus on technical topics such as workshops on Supabase, Next.js, Fly.io, and Puppeteer, as well as event-driven architecture.",
               "prompt": "Were there any presentation about new york city?",
               "provider": "file:///Praca\\meetjs\\rags\\dist\\custom-api-provider.cjs",
-              "latencyMs": 2817,
+              "latencyMs": 2023,
               "gradingResult": {
                 "pass": true,
                 "score": 1,
                 "reason": "All assertions passed",
                 "namedScores": {},
                 "tokensUsed": {
-                  "total": 250,
-                  "prompt": 207,
+                  "total": 269,
+                  "prompt": 226,
                   "completion": 43,
                   "cached": 0
                 },
@@ -323,10 +323,10 @@
                     },
                     "pass": true,
                     "score": 1,
-                    "reason": "The output explicitly states that there is no mention of any presentations specifically about New York City at Developerskie.",
+                    "reason": "The content explicitly states that there is no mention of any presentations specifically about New York City at Developerskie.",
                     "tokensUsed": {
-                      "total": 250,
-                      "prompt": 207,
+                      "total": 269,
+                      "prompt": 226,
                       "completion": 43,
                       "cached": 0
                     }
