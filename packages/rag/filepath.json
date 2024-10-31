@@ -1,0 +1,316 @@
+{
+  "evalId": "eval-BkG-2024-11-04T07:16:48",
+  "results": {
+    "version": 3,
+    "timestamp": "2024-11-04T07:16:48.315Z",
+    "prompts": [
+      {
+        "raw": "Are there any presentation about {{topic}} during Wrocław 2024 4Dev?",
+        "label": "Are there any presentation about {{topic}} during Wrocław 2024 4Dev?",
+        "id": "e300c5319942301f37901f16b09f4f28acdb097c9f1bd6697c763237101d34b8",
+        "provider": "custom-api-provider",
+        "metrics": {
+          "score": 3,
+          "testPassCount": 3,
+          "testFailCount": 0,
+          "assertPassCount": 4,
+          "assertFailCount": 0,
+          "totalLatencyMs": 8651,
+          "tokenUsage": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0
+        }
+      }
+    ],
+    "results": [
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "Inteligentny system na wyciągniecie ręki"
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "772d1226-7007-4c8e-88ca-88d14dc41c7b",
+        "latencyMs": 2719,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Are there any presentation about RAG during Wrocław 2024 4Dev?",
+          "label": "Are there any presentation about {{topic}} during Wrocław 2024 4Dev?"
+        },
+        "promptId": "e300c5319942301f37901f16b09f4f28acdb097c9f1bd6697c763237101d34b8",
+        "promptIdx": 0,
+        "provider": {
+          "id": "custom-api-provider",
+          "label": ""
+        },
+        "response": {
+          "output": "Yes, there is a presentation titled \"Inteligentny system na wyciągniecie ręki - Architektura RAG\" by Radosław Karbowiak. It will explore the potential of Retrieval Augmented Generation (RAG) systems in creating intelligent applications, covering key components and best practices for implementation. The session is scheduled for November 5, 2024, from 09:00 to 09:45 CET."
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "topic": "RAG"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "Inteligentny system na wyciągniecie ręki"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "topic": "RAG"
+        },
+        "metadata": {}
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 302,
+            "prompt": 268,
+            "completion": 34,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "Heroes"
+              }
+            },
+            {
+              "assertion": {
+                "type": "llm-rubric",
+                "value": "there are two presentations about Domain Driven Design"
+              },
+              "pass": true,
+              "score": 1,
+              "reason": "The output explicitly mentions two presentations about Domain-Driven Design.",
+              "tokensUsed": {
+                "total": 302,
+                "prompt": 268,
+                "completion": 34,
+                "cached": 0
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "ad1937fa-5ed9-488d-a972-f1385ebde8cd",
+        "latencyMs": 2534,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Are there any presentation about DDD during Wrocław 2024 4Dev?",
+          "label": "Are there any presentation about {{topic}} during Wrocław 2024 4Dev?"
+        },
+        "promptId": "e300c5319942301f37901f16b09f4f28acdb097c9f1bd6697c763237101d34b8",
+        "promptIdx": 0,
+        "provider": {
+          "id": "custom-api-provider",
+          "label": ""
+        },
+        "response": {
+          "output": "Yes, there are presentations about Domain-Driven Design (DDD) during the Wrocław 2024 4Developers event. One presentation is titled \"DDD na frontendzie? A komu to potrzebne?\" by Marcin Milewicz, and another is \"Moc i Magia Domain-Driven Design przez pryzmat Heroes III\" by Mateusz Nowak. Both sessions are designed for beginners and will explore various concepts and practices related to DDD."
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "topic": "DDD"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "Heroes"
+            },
+            {
+              "type": "llm-rubric",
+              "value": "there are two presentations about Domain Driven Design"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "vars": {
+          "topic": "DDD"
+        },
+        "metadata": {}
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 256,
+            "prompt": 215,
+            "completion": 41,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "assertion": {
+                "type": "llm-rubric",
+                "value": "there were no presentations about new york city"
+              },
+              "pass": true,
+              "score": 1,
+              "reason": "The output explicitly states that the event does not cover presentations about locations such as New York City.",
+              "tokensUsed": {
+                "total": 256,
+                "prompt": 215,
+                "completion": 41,
+                "cached": 0
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "8bc5433f-7121-46fb-b252-d14bc8944207",
+        "latencyMs": 3398,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Are there any presentation about new york city during Wrocław 2024 4Dev?",
+          "label": "Are there any presentation about {{topic}} during Wrocław 2024 4Dev?"
+        },
+        "promptId": "e300c5319942301f37901f16b09f4f28acdb097c9f1bd6697c763237101d34b8",
+        "promptIdx": 0,
+        "provider": {
+          "id": "custom-api-provider",
+          "label": ""
+        },
+        "response": {
+          "output": "I'm unable to assist with that as it does not align with the 4Developers event guidelines. The event focuses on IT technology topics and does not specifically cover presentations about locations such as New York City."
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "topic": "new york city"
+          },
+          "assert": [
+            {
+              "type": "llm-rubric",
+              "value": "there were no presentations about new york city"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 2,
+        "vars": {
+          "topic": "new york city"
+        },
+        "metadata": {}
+      }
+    ],
+    "stats": {
+      "successes": 3,
+      "failures": 0,
+      "tokenUsage": {
+        "cached": 0,
+        "completion": 0,
+        "prompt": 0,
+        "total": 0
+      }
+    }
+  },
+  "config": {
+    "description": "My eval",
+    "prompts": [
+      "Are there any presentation about {{topic}} during Wrocław 2024 4Dev?"
+    ],
+    "providers": [
+      {
+        "dist/custom-api-provider.js": {
+          "id": "custom-api-provider"
+        }
+      }
+    ],
+    "tests": [
+      {
+        "vars": {
+          "topic": "RAG"
+        },
+        "assert": [
+          {
+            "type": "icontains",
+            "value": "Inteligentny system na wyciągniecie ręki"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "topic": "DDD"
+        },
+        "assert": [
+          {
+            "type": "icontains",
+            "value": "Heroes"
+          },
+          {
+            "type": "llm-rubric",
+            "value": "there are two presentations about Domain Driven Design"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "topic": "new york city"
+        },
+        "assert": [
+          {
+            "type": "llm-rubric",
+            "value": "there were no presentations about new york city"
+          }
+        ]
+      }
+    ],
+    "sharing": true,
+    "outputPath": [
+      "filepath.json"
+    ],
+    "extensions": []
+  },
+  "shareableUrl": null
+}

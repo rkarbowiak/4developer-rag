@@ -1,0 +1,31 @@
+# Learn more about building a configuration: https://promptfoo.dev/docs/configuration/guide
+description: "My eval"
+
+prompts:
+  - "Are there any presentation about {{topic}} during Wrocław 2024 4Dev?"
+
+providers:
+  - dist/custom-api-provider.js:
+      id: custom-api-provider
+
+tests:
+  - vars:
+      topic: RAG
+    assert:
+      - type: icontains
+        value: Inteligentny system na wyciągniecie ręki
+
+  - vars:
+      topic: DDD
+    assert:
+      - type: icontains
+        value: Heroes
+
+      - type: llm-rubric
+        value: there are two presentations about Domain Driven Design
+
+  - vars:
+      topic: new york city
+    assert:
+      - type: llm-rubric
+        value: there were no presentations about new york city
