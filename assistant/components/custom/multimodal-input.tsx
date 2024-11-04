@@ -29,9 +29,9 @@ const suggestedActions = [
     action: 'Find presentations about DDD?',
   },
   {
-    title: 'Describe all lectures',
+    title: 'Describe lectures',
     label: 'on DevOps thematical path',
-    action: 'Describe all lectures on DevOps thematical path',
+    action: 'Describe lectures on DevOps thematical path',
   },
 ];
 

@@ -1,4 +1,4 @@
-import { call4DevAssistant } from '@4dev/rag';
+import { call4DevAssistantStream } from '@4dev/rag';
 import { convertToCoreMessages, Message, StreamingTextResponse } from 'ai';
 import { NextResponse } from 'next/server';
 
@@ -7,12 +7,6 @@ import { auth } from '@/app/(auth)/auth';
 import { deleteChatById, getChatById, saveChat } from '@/db/queries';
 
 export const maxDuration = 60;
-
-type AllowedTools =
-  | 'createDocument'
-  | 'updateDocument'
-  | 'requestSuggestions'
-  | 'getWeather';
 
 const sleep = async (delay: number) =>
   new Promise((resolve) => setTimeout(resolve, delay));
@@ -24,9 +18,6 @@ export async function POST(request: Request) {
     modelId,
   }: { id: string; messages: Array<Message>; modelId: string } =
     await request.json();
-
-  console.log('Body');
-  console.log(id, messages, modelId);
 
   const session = await auth();
 
@@ -40,8 +31,6 @@ export async function POST(request: Request) {
     return new Response('Model not found', { status: 404 });
   }
 
-  console.log('Jestem tutaj');
-
   const lastQuestion = messages.at(-1)?.content;
 
   if (!lastQuestion) {
@@ -50,7 +39,7 @@ export async function POST(request: Request) {
 
   const history = messages.slice(0, -1);
 
-  const answer = await call4DevAssistant(
+  const answer = await call4DevAssistantStream(
     lastQuestion,
     history.length > 0 ? history : []
   );
@@ -67,8 +56,6 @@ export async function POST(request: Request) {
 
       const words = value.split(/(\s+)/).filter(Boolean);
 
-      console.log(words);
-
       for (const word of words) {
         await sleep(25);
         const sanitizedWord = word.replace(/"/g, "'").replace(/\n/g, '\\n');
@@ -83,7 +70,6 @@ export async function POST(request: Request) {
     yield `d:{"finishReason":"stop"}`;
 
     if (session?.user && session.user.id) {
-      console.log(fullAnswer);
       const coreMessages = convertToCoreMessages(messages);
 
       try {
@@ -101,9 +87,9 @@ export async function POST(request: Request) {
     }
   }
 
-  const transferedStream = transformStream(answer);
+  const transferredStream = transformStream(answer);
 
-  return new StreamingTextResponse(transferedStream as any);
+  return new NextResponse(transferredStream as unknown as BodyInit);
 }
 
 export async function DELETE(request: Request) {

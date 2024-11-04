@@ -56,8 +56,6 @@ const scrapeEventoryWebsite = async (url: string, page: Page) => {
     return { ...eventInfo, ...e, finalUrl };
   });
 
-  console.log(eventsCombined);
-
   return eventsCombined;
 };
 

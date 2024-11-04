@@ -42,8 +42,6 @@ export function Chat({
     },
   });
 
-  console.log(JSON.stringify(messages), input, isLoading, streamingData);
-
   const { width: windowWidth = 1920, height: windowHeight = 1080 } =
     useWindowSize();
 

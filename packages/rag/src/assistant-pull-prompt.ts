@@ -10,7 +10,6 @@ import { Pinecone } from "@pinecone-database/pinecone";
 import { StringOutputParser } from "@langchain/core/output_parsers";
 import * as hub from "langchain/hub";
 
-
 const prompt = await hub.pull("test");
 
 const model = new ChatOpenAI({
@@ -39,7 +38,7 @@ const chain = RunnableSequence.from([
 ]);
 
 const answer = await chain.invoke(
-  "Are there any presentation about RAGs in Wroclaw 4developer 2024?",
+  "Are there any presentation about RAG in Wroclaw 4developer 2024?",
 );
 
 console.log({ answer });

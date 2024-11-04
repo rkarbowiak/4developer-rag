@@ -8,11 +8,10 @@
     "build": "tsup-node",
     "dev": "tsup-node --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:custom-api-provider": "npx tsup src/custom-api-provider.ts --format cjs,esm --dts --clean",
-    "run:pinecone:insert": "npx tsx src/pinecone-insert",
+    "run:pinecone:insert": "npx tsx scripts/pinecone-insert",
     "run:assistant": "npx tsx src/assistant",
     "promptfoo:eval": "promptfoo eval --output filepath.json",
-    "run:puppeteer": "npx tsx src/scraping/4developers.ts"
+    "run:puppeteer": "npx tsx scripts/scraping/4developers.ts"
   },
   "keywords": [],
   "author": "",

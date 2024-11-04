@@ -5,7 +5,7 @@ prompts:
   - "Are there any presentation about {{topic}} during Wrocław 2024 4Dev?"
 
 providers:
-  - dist/custom-api-provider.js:
+  - dist/test/custom-api-provider.js:
       id: custom-api-provider
 
 tests:

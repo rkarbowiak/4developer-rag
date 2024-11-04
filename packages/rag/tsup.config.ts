@@ -1,7 +1,7 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig((opts) => ({
-  entry: ["src/index.ts", "src/custom-api-provider.ts"],
+  entry: ["src/index.ts", "src/test/custom-api-provider.ts"],
   clean: !opts.watch,
   target: "es2022",
   format: ["cjs", "esm"],
